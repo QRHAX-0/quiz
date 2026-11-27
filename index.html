@@ -624,9 +624,7 @@
                 <pre class="code-font bg-slate-900 text-emerald-400 text-xs sm:text-sm p-3.5 rounded-xl border border-slate-800 leading-relaxed overflow-x-auto">${escapeHtml(ch.expectedOutput)}</pre>
               </div>
 
-              <div class="bg-amber-50/70 border border-amber-200/80 rounded-xl p-3 text-xs text-amber-900 leading-relaxed">
-                <strong>تلميح:</strong> راقب علامات التنصيص <span class="code-font">""</span>، المسافات داخل النصوص، الأقواس <span class="code-font">()</span> حول العمليات الحسابية، وعلامات التعليق <span class="code-font">//</span>.
-              </div>
+              
             </div>
 
             <div class="lg:col-span-7 flex flex-col space-y-2.5">
@@ -650,9 +648,7 @@
                 <button onclick="resetChallenge('${ch.id}')" class="px-3.5 py-2 rounded-xl bg-stone-100 hover:bg-stone-200 text-slate-700 text-xs font-bold transition cursor-pointer">
                   🔄 إعادة الكود
                 </button>
-                <button onclick="toggleChallengeSolution('${ch.id}')" class="px-3.5 py-2 rounded-xl border border-amber-300 bg-amber-50 hover:bg-amber-100 text-amber-900 text-xs font-bold transition cursor-pointer mr-auto">
-                  💡 كشف الحل
-                </button>
+                
               </div>
 
               <div id="outputBox-${ch.id}" class="hidden rounded-xl border p-3.5 text-xs space-y-2"></div>
